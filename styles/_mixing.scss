@@ -1,0 +1,26 @@
+.main-wrapper {
+  @media screen and (min-width: 1023px) {
+    padding: 2rem;
+  }
+}
+.radius-100 {
+  border-radius: 1000px;
+}
+.navodak li {
+  @media screen and (min-width: 1024px) {
+    &:not(:last-child) {
+      margin-right: .75rem;
+    }
+    counter-increment: odak 1;
+    position: relative;
+    &.nav-item::before {
+      position: absolute;
+      content: "0" counter(odak) ".";
+      top: calc(50% - .75rem);
+      color: rgba($primary,.5);
+    }
+    a {
+      padding-left: 2rem!important;
+    }
+  }
+}

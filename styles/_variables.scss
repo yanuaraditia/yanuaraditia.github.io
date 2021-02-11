@@ -1,0 +1,17 @@
+$google-font: 'Inter' !default;
+$google-font-monospaced: null !default;
+
+$font-family-sans-serif: $google-font, -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif !default;
+$font-family-monospace: $google-font-monospaced, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+$font-family-serif: "Georgia", "Times New Roman", times, serif !default;
+
+$dark: #111;
+$body-bg: $dark;
+$body-color: #fff;
+
+$primary: #0ca678;
+
+$link-decoration: none;
+$link-hover-decoration: underline;
+$nav-link-hover-color: $primary;
+$headings-font-weight: 700;
