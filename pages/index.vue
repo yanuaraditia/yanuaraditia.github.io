@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="py-lg-5">
     <b-container class="py-lg-5 front-banner">
       <b-row>
         <div class="order-1 col-lg-6 order-lg-0">
@@ -17,9 +17,9 @@
     </b-container>
   </section>
 </template>
-<style lang="scss">
+<style lang="scss" scoped>
 .front-banner {
-  @media screen and (min-width: 1023px) {
+  @media screen and (min-width: 1024px) {
     h1 {
       font-size: 3rem;
     }
@@ -30,5 +30,18 @@
       font-size: 1.4rem;
     }
   }
+  @media screen and (max-width: 1023px) {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
 }
 </style>
+<script>
+export default {
+  head: {
+    title: 'Home'
+  }
+}
+</script>
