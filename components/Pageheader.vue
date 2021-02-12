@@ -1,5 +1,5 @@
 <template>
-  <section class="py-lg-5">
+  <section class="py-5">
     <b-container>
       <h1 class="title"><span>{{title}}</span></h1>
       <h4 class="subtitle"><span class="text-primary">return</span> $this<span class="text-muted">->{{method}}();</span></h4>
